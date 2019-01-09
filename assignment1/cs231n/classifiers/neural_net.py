@@ -112,13 +112,13 @@ class TwoLayerNet(object):
     y_onehot = np.zeros(scores_exp.shape)
     y_onehot[np.arange(N), y] = 1
     scores_exp_sum = scores_exp_sum.reshape(-1, 1) #  to convert vector to array with dimension (num_train , 1)
-    div_scores = ((scores_exp / scores_exp_sum) - y_onehot) / N
-    grads['W2'] = np.dot(first_hidden.T, div_scores) + (reg * 2 * W2)
-    grads['b2'] = np.sum(div_scores, axis = 0)
-    div_hidden = np.dot(div_scores, W2.T)
-    div_hidden[first_hidden == 0] = 0
-    grads['W1'] = np.dot(X.T, div_hidden) + (reg * 2 * W1)
-    grads['b1'] = np.sum(div_hidden, axis = 0)
+    grad_scores = ((scores_exp / scores_exp_sum) - y_onehot) / N
+    grads['W2'] = np.dot(first_hidden.T, grad_scores) + (reg * 2 * W2)
+    grads['b2'] = np.sum(grad_scores, axis = 0)
+    grad_hidden = np.dot(grad_scores, W2.T)
+    grad_hidden[first_hidden == 0] = 0
+    grads['W1'] = np.dot(X.T, grad_hidden) + (reg * 2 * W1)
+    grads['b1'] = np.sum(grad_hidden, axis = 0)
 
     #############################################################################
     #                              END OF YOUR CODE                             #
