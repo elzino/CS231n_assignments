@@ -1,0 +1,95 @@
+cython-0.25.2        | 6.5 MB    |            |   0% cython-0.25.2        | 6.5 MB    |            |   0% cython-0.25.2        | 6.5 MB    |            |   0% cython-0.25.2        | 6.5 MB    | 1          |   1% cython-0.25.2        | 6.5 MB    | 2          |   2% cython-0.25.2        | 6.5 MB    | 3          |   4% cython-0.25.2        | 6.5 MB    | 5          |   6% cython-0.25.2        | 6.5 MB    | 8          |   8% cython-0.25.2        | 6.5 MB    | #1         |  11% cython-0.25.2        | 6.5 MB    | #####3     |  54% cython-0.25.2        | 6.5 MB    | #######7   |  77% cython-0.25.2        | 6.5 MB    | #########4 |  94% cython-0.25.2        | 6.5 MB    | ########## | 100% 
+flask-0.12.2         | 104 KB    |            |   0% flask-0.12.2         | 104 KB    | ########## | 100% 
+jinja2-2.8           | 310 KB    |            |   0% jinja2-2.8           | 310 KB    | 3          |   4% jinja2-2.8           | 310 KB    | #########3 |  93% jinja2-2.8           | 310 KB    | ########## | 100% 
+markupsafe-0.23      | 35 KB     |            |   0% markupsafe-0.23      | 35 KB     | ###4       |  35% markupsafe-0.23      | 35 KB     | ########## | 100% 
+
+CondaError: KeyboardInterrupt
+
+
+CondaError: KeyboardInterrupt
+
+
+CondaError: KeyboardInterrupt
+
+Traceback (most recent call last):
+  File "/home/1997j/anaconda3/bin/conda", line 4, in <module>
+    import re
+  File "/home/1997j/anaconda3/lib/python3.7/re.py", line 123, in <module>
+    import sre_compile
+  File "/home/1997j/anaconda3/lib/python3.7/sre_compile.py", line 14, in <module>
+    import sre_parse
+  File "/home/1997j/anaconda3/lib/python3.7/sre_parse.py", line 15, in <module>
+    from sre_constants import *
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 818, in get_code
+  File "<frozen importlib._bootstrap_external>", line 917, in get_data
+KeyboardInterrupt
+
+CondaError: KeyboardInterrupt
+
+
+CondaError: KeyboardInterrupt
+
+Fatal Python error: initsite: Failed to import the site module
+Traceback (most recent call last):
+  File "/home/1997j/anaconda3/lib/python3.7/site.py", line 73, in <module>
+    import os
+  File "/home/1997j/anaconda3/lib/python3.7/os.py", line 661, in <module>
+    from _collections_abc import MutableMapping
+  File "/home/1997j/anaconda3/lib/python3.7/_collections_abc.py", line 99, in <module>
+    class Awaitable(metaclass=ABCMeta):
+  File "/home/1997j/anaconda3/lib/python3.7/abc.py", line 126, in __new__
+    cls = super().__new__(mcls, name, bases, namespace, **kwargs)
+KeyboardInterrupt
+
+CondaError: KeyboardInterrupt
+
+Traceback (most recent call last):
+  File "/home/1997j/anaconda3/bin/conda", line 11, in <module>
+    sys.exit(main())
+  File "/home/1997j/anaconda3/lib/python3.7/site-packages/conda/cli/main.py", line 112, in main
+    from ..exceptions import conda_exception_handler
+  File "/home/1997j/anaconda3/lib/python3.7/site-packages/conda/exceptions.py", line 18, in <module>
+    from .common.io import timeout
+  File "/home/1997j/anaconda3/lib/python3.7/site-packages/conda/common/io.py", line 28, in <module>
+    from .._vendor.tqdm import tqdm
+  File "/home/1997j/anaconda3/lib/python3.7/site-packages/conda/_vendor/tqdm/__init__.py", line 8, in <module>
+    from ._tqdm import tqdm
+  File "/home/1997j/anaconda3/lib/python3.7/site-packages/conda/_vendor/tqdm/_tqdm.py", line 13, in <module>
+    from ._utils import _supports_unicode, _environ_cols_wrapper, _range, _unich, \
+  File "/home/1997j/anaconda3/lib/python3.7/site-packages/conda/_vendor/tqdm/_utils.py", line 4, in <module>
+    CUR_OS = _curos()
+  File "/home/1997j/anaconda3/lib/python3.7/platform.py", line 1066, in system
+    return uname().system
+  File "/home/1997j/anaconda3/lib/python3.7/platform.py", line 1032, in uname
+    processor = _syscmd_uname('-p', '')
+  File "/home/1997j/anaconda3/lib/python3.7/platform.py", line 789, in _syscmd_uname
+    output = f.read().strip()
+KeyboardInterrupt
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - gnureadline==6.3.3
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/linux-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/free/linux-64
+  - https://repo.anaconda.com/pkgs/free/noarch
+  - https://repo.anaconda.com/pkgs/r/linux-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/pro/linux-64
+  - https://repo.anaconda.com/pkgs/pro/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
