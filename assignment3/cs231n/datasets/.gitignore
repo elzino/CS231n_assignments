@@ -1,0 +1,6 @@
+coco_captioning/*
+MNIST_data
+squeezenet.ckpt.meta
+squeezenet.ckpt.data-00000-of-00001
+*.npz
+squeezenet.ckpt.index
